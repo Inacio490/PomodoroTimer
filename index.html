@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <meta charset="utf-8">
+	<title>Pomodoro!</title>
+  <link rel="shortcut icon" href="est-removebg-preview.png">
+
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Righteous&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="crono.css">
+<script src="pomo.js" defer></script>
+
+</head>
+
+
+
+<body>
+  <main>
+
+    <!-- Cronometro no html -->
+  	<div class="dados" >
+
+      <div id="container">
+        <h1 class="titulo"> POMODORO TIMER</h1>
+      </div>
+      <hr></hr>
+      <br>
+      <div id="counter"></div>
+
+      <div class="btns">
+         <button type="button" onclick="check('start');" class="bg-green">Estudar</button>
+         <button type="button" onclick="check('Rest');" class="bg-green">Intervalo Curto</button>
+         <button type="button" onclick="check('lrest');" class="bg-green">Intervalo Longo</button>
+         <button type="button" onclick="check('stop');" class="bg-green">Pausar</button>
+         <button type="button" onclick="check('continue');" class="bg-green">Continuar</button>
+         <br><br>
+      </div>
+  	</div>
+  </main>
+
+  <p class="name"> © Criado por Inácio Souza e Carlos Daniel </p>  
+
+
+
+
+</body>
+</html>
+

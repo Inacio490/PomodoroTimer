@@ -1,0 +1,112 @@
+@keyframes bounce {
+  0%,20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+     -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  
+  80% {
+     -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  
+}
+
+
+body{
+	width: 95%;
+	max-width: 1000px;
+	margin: auto;
+  background: #B40431;
+	font-family: 'lato';
+	line-height: 1.5;
+	color: white;
+    
+  }
+
+
+   main {
+     padding-top: 150px;
+  }
+
+  .titulo {
+    text-align: center;
+  }
+
+  #counter {
+    font-size: 50px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Righteous', cursive;
+  }
+
+
+
+  .band-name{
+  	  	text-align: center;
+  }
+
+  .headline {
+    text-align: center;
+    
+  }
+
+
+  .dados {
+	font-family: 'lato';
+	background-color: #00000050;
+  border-top: 20px;
+  border-width: medium;
+  border-style: solid;
+  border-color: #FFFEFE;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 20px;
+  }
+
+  .btns {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .bg-green {
+    background-color: #B40431 ;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+    color: white;
+  }
+
+  .bg-green:hover {
+    animation: bounce 2s;
+  }
+
+  .name {
+    text-align: center;
+    font-family: 'lato';
+    opacity: 0.4;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  
+
+
+  
+   
+	
+    
+
+
+  
